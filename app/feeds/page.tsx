@@ -8,7 +8,7 @@ export default function FeedPage() {
     <>
       <Navbar />
 
-      <main className="min-h-screen w-full bg-[#FBD9EC] flex justify-center pt-[92px] pb-10 px-4 sm:px-6">
+      <main className="min-h-screen w-full flex justify-center pt-[92px] pb-10 px-4 sm:px-6">
         <div className="w-full max-w-[430px] lg:max-w-2xl space-y-4">
           <CreatePost />
           <FeedList />
